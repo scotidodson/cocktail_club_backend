@@ -18,7 +18,7 @@ class Api::V1::CocktailsController < ApplicationController
   private
 
   def cocktail_params
-    params.permit(:name, :instructions)
+    params.permit(:name, :instructions, :ingredient_ids[])
   end
 
   def find_cocktail
