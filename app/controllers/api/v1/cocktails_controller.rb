@@ -6,6 +6,15 @@ class Api::V1::CocktailsController < ApplicationController
     render json: @cocktails
   end
 
+  def new
+
+  end
+
+  def create
+    @cocktail = Cocktail.create(cocktail_params)
+    render json: @cocktail, status: :accepted
+  end
+
   def update
     @cocktail.update(cocktail_params)
     if @cocktail.save
@@ -18,7 +27,7 @@ class Api::V1::CocktailsController < ApplicationController
   private
 
   def cocktail_params
-    params.permit(:name, :instructions, :ingredient_ids[])
+    params.permit(:name, :instructions)
   end
 
   def find_cocktail
