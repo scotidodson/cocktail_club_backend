@@ -1,5 +1,5 @@
 class Api::V1::CocktailsController < ApplicationController
-  before_action :find_cocktail, only: [:update]
+  before_action :find_cocktail, only: [:update, :destroy]
 
   def index
     @cocktails = Cocktail.all
@@ -24,6 +24,11 @@ class Api::V1::CocktailsController < ApplicationController
     end
   end
 
+  def destroy
+    @cocktail.destroy
+    render json: @cocktail, status: :accepted
+  end
+
   private
 
   def cocktail_params
@@ -31,6 +36,6 @@ class Api::V1::CocktailsController < ApplicationController
   end
 
   def find_cocktail
-    @cocktail = Cocktail.find(params[:id])
+    @cocktail = Cocktail.find_by(id: params[:id])
   end
 end

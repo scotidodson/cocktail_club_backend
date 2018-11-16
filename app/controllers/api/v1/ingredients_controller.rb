@@ -1,5 +1,5 @@
 class Api::V1::IngredientsController < ApplicationController
-    before_action :find_ingredient, only: [:update]
+    before_action :find_ingredient, only: [:update, :delete]
 
     def index
       @ingredients = Ingredient.all
@@ -22,6 +22,10 @@ class Api::V1::IngredientsController < ApplicationController
       else
         render json: { errors: @ingredient.errors.full_messages }, status: :unprocessible_entity
       end
+    end
+
+    def delete
+      @ingredient.destroy
     end
 
     private
