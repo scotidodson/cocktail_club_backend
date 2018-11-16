@@ -33,13 +33,6 @@ Cocktail.create({
           optional: "false"
           })
 
-        Ingredient.create({
-          cocktail_id: "1",
-          ingredient: "Orange Peel",
-          amount: "1 peel",
-          optional: "false"
-          })
-
 Cocktail.create({
   name: "Mimosa",
   instructions: 'Add the orange juice to a Champagne flute. Fill with sparkling wine.',
@@ -230,7 +223,7 @@ Cocktail.create({
           })
 
 Cocktail.create({
-  name: "Gimlet",
+  name: "Gin Gimlet",
   instructions: "Add all the ingredients into a shaker with ice and shake. Strain into a chilled cocktail glass or an Old Fashioned glass filled with fresh ice. Garnish with a lime wheel.(You can substitute 1 oz lime cordial, such as Rose's Lime Juice, for both the lime juice and simple syrup).",
   glass: "Coupe",
   category: "Classic"
@@ -266,7 +259,7 @@ Cocktail.create({
 
         Ingredient.create({
           cocktail_id: "9",
-          ingredient: "Rum (White)",
+          ingredient: "Rum",
           amount: "2 oz",
           optional: "false"
           })
@@ -525,28 +518,7 @@ Cocktail.create({
 
         Ingredient.create({
           cocktail_id: "16",
-          ingredient: "Cold Water",
-          amount: "1/4 oz",
-          optional: "false"
-          })
-
-        Ingredient.create({
-          cocktail_id: "16",
-          ingredient: "Brown Sugar Cube",
-          amount: "1",
-          optional: "false"
-          })
-
-        Ingredient.create({
-          cocktail_id: "16",
           ingredient: "Orange Peel",
-          amount: "1",
-          optional: "false"
-          })
-
-        Ingredient.create({
-          cocktail_id: "16",
-          ingredient: "Lemon Slice",
           amount: "1",
           optional: "false"
           })
@@ -560,7 +532,7 @@ Cocktail.create({
 
         Ingredient.create({
           cocktail_id: "17",
-          ingredient: "Rye Whiskey",
+          ingredient: "Whiskey",
           amount: "1 1/4 oz",
           optional: "false"
           })
