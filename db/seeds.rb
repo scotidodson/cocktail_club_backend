@@ -63,7 +63,7 @@ Cocktail.create({
 
         Ingredient.create({
           cocktail_id: "2",
-          ingredient: "Lime Juice",
+          ingredient: "Lime",
           amount: "3/4 oz",
           optional: "false"
           })
@@ -84,7 +84,7 @@ Cocktail.create({
 
                   Ingredient.create({
                     cocktail_id: "3",
-                    ingredient: "Lemon Juice",
+                    ingredient: "Lemon",
                     amount: "1 oz",
                     optional: "false"
                     })
@@ -105,7 +105,7 @@ Cocktail.create({
 
                   Ingredient.create({
                     cocktail_id: "3",
-                    ingredient: "Club Soda",
+                    ingredient: "Soda",
                     amount: "1 oz",
                     optional: "false"
                     })
@@ -126,7 +126,7 @@ Cocktail.create({
 
         Ingredient.create({
           cocktail_id: "4",
-          ingredient: "Lime Juice",
+          ingredient: "Lime",
           amount: "1/2 oz",
           optional: "false"
           })
@@ -254,7 +254,7 @@ Cocktail.create({
 
         Ingredient.create({
           cocktail_id: "8",
-          ingredient: "Lime Juice",
+          ingredient: "Lime",
           amount: "1/2 oz",
           optional: "false"
           })
@@ -296,7 +296,7 @@ Cocktail.create({
 
         Ingredient.create({
           cocktail_id: "9",
-          ingredient: "Lime Juice",
+          ingredient: "Lime",
           amount: "3/4 oz",
           optional: "false"
           })
@@ -373,7 +373,7 @@ Cocktail.create({
 
         Ingredient.create({
           cocktail_id: "11",
-          ingredient: "Lemon Juice",
+          ingredient: "Lemon",
           amount: "3/4 oz",
           optional: "false"
           })
@@ -422,7 +422,7 @@ Cocktail.create({
 
         Ingredient.create({
           cocktail_id: "13",
-          ingredient: "Lemon Juice",
+          ingredient: "Lemon",
           amount: "3/4 oz",
           optional: "false"
           })
@@ -608,6 +608,13 @@ Cocktail.create({
           cocktail_id: "19",
           ingredient: "Soda",
           amount: "to top",
+          optional: "false"
+          })
+
+        Ingredient.create({
+          cocktail_id: "19",
+          ingredient: "Lime",
+          amount: "Lots of it",
           optional: "false"
           })
 
