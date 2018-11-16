@@ -34,25 +34,81 @@ Cocktail.create({
           })
 
 Cocktail.create({
-  name: "Mimosa",
-  instructions: 'Add the orange juice to a Champagne flute. Fill with sparkling wine.',
-  glass: "Flute",
-  category: "Brunch"
+  name: "Last Word",
+  instructions: 'Add all the ingredients into a shaker with ice and shake. Double-strain into a chilled coupe glass.',
+  glass: "Coupe",
+  category: "Classic"
   })
 
         Ingredient.create({
           cocktail_id: "2",
-          ingredient: "Orange Juice",
-          amount: "2 oz",
+          ingredient: "Gin",
+          amount: "3/4 oz",
           optional: "false"
           })
 
         Ingredient.create({
           cocktail_id: "2",
-          ingredient: "Champagne",
-          amount: "2 oz",
+          ingredient: "Maraschino Liqueur",
+          amount: "3/4 oz",
           optional: "false"
           })
+
+        Ingredient.create({
+          cocktail_id: "2",
+          ingredient: "Green Chartreuse",
+          amount: "3/4 oz",
+          optional: "false"
+          })
+
+        Ingredient.create({
+          cocktail_id: "2",
+          ingredient: "Lime Juice",
+          amount: "3/4 oz",
+          optional: "false"
+          })
+
+          Cocktail.create({
+            name: "Gin Fizz",
+            instructions: 'Add the first four ingredients to a shaker and dry-shake (without ice) for about 10 seconds. Add 3 or 4 ice cubes and shake very well. Double-strain into a chilled fizz glass and top with club soda.',
+            glass: "collins",
+            category: "Classic"
+            })
+
+                  Ingredient.create({
+                    cocktail_id: "3",
+                    ingredient: "Gin",
+                    amount: "2 oz",
+                    optional: "false"
+                    })
+
+                  Ingredient.create({
+                    cocktail_id: "3",
+                    ingredient: "Lemon Juice",
+                    amount: "1 oz",
+                    optional: "false"
+                    })
+
+                  Ingredient.create({
+                    cocktail_id: "3",
+                    ingredient: "Simple Syrup",
+                    amount: "3/4 oz",
+                    optional: "false"
+                    })
+
+                  Ingredient.create({
+                    cocktail_id: "3",
+                    ingredient: "Egg White",
+                    amount: "1/2 oz",
+                    optional: "false"
+                    })
+
+                  Ingredient.create({
+                    cocktail_id: "3",
+                    ingredient: "Club Soda",
+                    amount: "1 oz",
+                    optional: "false"
+                    })
 
 Cocktail.create({
   name: "Paloma",
@@ -62,21 +118,21 @@ Cocktail.create({
   })
 
         Ingredient.create({
-          cocktail_id: "3",
+          cocktail_id: "4",
           ingredient: "Tequila",
           amount: "2 oz",
           optional: "false"
           })
 
         Ingredient.create({
-          cocktail_id: "3",
+          cocktail_id: "4",
           ingredient: "Lime Juice",
           amount: "1/2 oz",
           optional: "false"
           })
 
         Ingredient.create({
-          cocktail_id: "3",
+          cocktail_id: "4",
           ingredient: "Grapefruit Soda",
           amount: "1/2 oz, to top",
           optional: "false"
@@ -90,21 +146,21 @@ Cocktail.create({
   })
 
         Ingredient.create({
-          cocktail_id: "4",
+          cocktail_id: "5",
           ingredient: "Scotch",
           amount: "2 oz",
           optional: "false"
           })
 
         Ingredient.create({
-          cocktail_id: "4",
+          cocktail_id: "5",
           ingredient: "Sweet Vermouth",
           amount: "3/4 oz",
           optional: "false"
           })
 
         Ingredient.create({
-          cocktail_id: "4",
+          cocktail_id: "5",
           ingredient: "Angostura Bitters",
           amount: "3 dashes",
           optional: "false"
@@ -118,74 +174,34 @@ Cocktail.create({
   })
 
         Ingredient.create({
-          cocktail_id: "5",
+          cocktail_id: "6",
           ingredient: "Scotch",
           amount: "3/4 oz",
           optional: "false"
           })
 
         Ingredient.create({
-          cocktail_id: "5",
+          cocktail_id: "6",
           ingredient: "Sweet Vermouth",
           amount: "3/4 oz",
           optional: "false"
           })
 
         Ingredient.create({
-          cocktail_id: "5",
+          cocktail_id: "6",
           ingredient: "Heering Cherry Liqueur",
           amount: "3/4 oz",
           optional: "false"
           })
 
         Ingredient.create({
-          cocktail_id: "5",
+          cocktail_id: "6",
           ingredient: "Orange Juice",
           amount: "3/4 oz",
           optional: "false"
           })
 
-Cocktail.create({
-  name: "Gin Fizz",
-  instructions: 'Add the first four ingredients to a shaker and dry-shake (without ice) for about 10 seconds. Add 3 or 4 ice cubes and shake very well. Double-strain into a chilled fizz glass and top with club soda.',
-  glass: "collins",
-  category: "Classic"
-  })
 
-        Ingredient.create({
-          cocktail_id: "6",
-          ingredient: "Gin",
-          amount: "2 oz",
-          optional: "false"
-          })
-
-        Ingredient.create({
-          cocktail_id: "6",
-          ingredient: "Lemon Juice",
-          amount: "1 oz",
-          optional: "false"
-          })
-
-        Ingredient.create({
-          cocktail_id: "6",
-          ingredient: "Simple Syrup",
-          amount: "3/4 oz",
-          optional: "false"
-          })
-
-        Ingredient.create({
-          cocktail_id: "6",
-          ingredient: "Egg White",
-          amount: "1/2 oz",
-          optional: "false"
-          })
-
-        Ingredient.create({
-          cocktail_id: "6",
-          ingredient: "Club Soda",
-          amount: "1 oz",
-          optional: "false"
-          })
 
 Cocktail.create({
   name: "Whiskey Smash",
@@ -446,40 +462,7 @@ Cocktail.create({
           optional: "false"
           })
 
-Cocktail.create({
-  name: "Last Word",
-  instructions: 'Add all the ingredients into a shaker with ice and shake. Double-strain into a chilled coupe glass.',
-  glass: "Coupe",
-  category: "Classic"
-  })
 
-        Ingredient.create({
-          cocktail_id: "15",
-          ingredient: "Gin",
-          amount: "3/4 oz",
-          optional: "false"
-          })
-
-        Ingredient.create({
-          cocktail_id: "15",
-          ingredient: "Maraschino Liqueur",
-          amount: "3/4 oz",
-          optional: "false"
-          })
-
-        Ingredient.create({
-          cocktail_id: "15",
-          ingredient: "Green Chartreuse",
-          amount: "3/4 oz",
-          optional: "false"
-          })
-
-        Ingredient.create({
-          cocktail_id: "15",
-          ingredient: "Lime Juice",
-          amount: "3/4 oz",
-          optional: "false"
-          })
 
 Cocktail.create({
   name: "Old Fashioned",
@@ -489,35 +472,35 @@ Cocktail.create({
   })
 
         Ingredient.create({
-          cocktail_id: "16",
+          cocktail_id: "15",
           ingredient: "Whiskey",
           amount: "2 oz",
           optional: "false"
           })
 
         Ingredient.create({
-          cocktail_id: "16",
+          cocktail_id: "15",
           ingredient: "Sugar",
           amount: "1/2 tsp",
           optional: "false"
           })
 
         Ingredient.create({
-          cocktail_id: "16",
+          cocktail_id: "15",
           ingredient: "Angostura Bitters",
           amount: "3 dashes",
           optional: "false"
           })
 
         Ingredient.create({
-          cocktail_id: "16",
+          cocktail_id: "15",
           ingredient: "Orange Bitters",
           amount: "1 dash",
           optional: "false"
           })
 
         Ingredient.create({
-          cocktail_id: "16",
+          cocktail_id: "15",
           ingredient: "Orange Peel",
           amount: "1",
           optional: "false"
@@ -531,25 +514,47 @@ Cocktail.create({
   })
 
         Ingredient.create({
-          cocktail_id: "17",
+          cocktail_id: "16",
           ingredient: "Whiskey",
           amount: "1 1/4 oz",
           optional: "false"
           })
 
         Ingredient.create({
-          cocktail_id: "17",
+          cocktail_id: "16",
           ingredient: "Campari",
           amount: "1 oz",
           optional: "false"
           })
 
         Ingredient.create({
-          cocktail_id: "17",
+          cocktail_id: "16",
           ingredient: "Sweet Vermouth",
           amount: "1 oz",
           optional: "false"
           })
+
+Cocktail.create({
+  name: "Mimosa",
+  instructions: 'Add the orange juice to a Champagne flute. Fill with sparkling wine.',
+  glass: "Flute",
+  category: "Brunch"
+  })
+
+        Ingredient.create({
+          cocktail_id: "17",
+          ingredient: "Orange Juice",
+          amount: "2 oz",
+          optional: "false"
+          })
+
+        Ingredient.create({
+          cocktail_id: "17",
+          ingredient: "Champagne",
+          amount: "2 oz",
+          optional: "false"
+          })
+
 
 Cocktail.create({
   name: "Vesper",
@@ -583,5 +588,45 @@ Cocktail.create({
           cocktail_id: "18",
           ingredient: "Lemon",
           amount: "1",
+          optional: "false"
+          })
+
+Cocktail.create({
+  name: "Gin Rickey",
+  instructions: 'Fill a highball glass with ice and add the gin. Juice the lime halves into the glass, and drop in the juiced lime shells. Fill with club soda.',
+  glass: "Collins",
+  category: "Classic"
+  })
+        Ingredient.create({
+          cocktail_id: "19",
+          ingredient: "Gin",
+          amount: "1.5 oz",
+          optional: "false"
+          })
+
+        Ingredient.create({
+          cocktail_id: "19",
+          ingredient: "Soda",
+          amount: "to top",
+          optional: "false"
+          })
+
+Cocktail.create({
+  name: "Screwdriver",
+  instructions: 'Add the vodka into a highball glass over ice. Top with the orange juice.',
+  glass: "Collins",
+  category: "Classic"
+  })
+        Ingredient.create({
+          cocktail_id: "20",
+          ingredient: "Vodka",
+          amount: "1.5 oz",
+          optional: "false"
+          })
+
+        Ingredient.create({
+          cocktail_id: "20",
+          ingredient: "Orange Juice",
+          amount: "to top",
           optional: "false"
           })
